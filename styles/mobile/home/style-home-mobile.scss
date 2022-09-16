@@ -103,7 +103,7 @@
 .menu-lateral--ativo {
     left: 0;
     transition: .25s;
-    z-index: 1;
+    z-index: 2;
 }
 
 .nav-ativo-mobile-logo {
@@ -149,6 +149,8 @@
     border: 0;
     color: $cor-light;
     font-family: $fonte;
+    position: absolute;
+    z-index: 1;
 }
 
 .imagem-home-mobile {
@@ -183,4 +185,143 @@
     border-radius: 50%;
     border: none;
     background-color: $cor-primary;
+}
+
+footer {
+    margin-top: 54px;
+    display: grid;
+    justify-items: center;
+    background-image: url('../../../imagens/mobile/home/background-footer.svg');
+    background-size: cover;
+    display: grid;
+    justify-items: center;
+}
+
+.card-footer {
+    width: 312px;
+    height: 548px;
+    background-image: url('../../../imagens/mobile/home/background-card-footer.svg');
+    background-size: cover;
+}
+
+.card-primeiro-conteudo {
+    display: grid;
+    justify-items: center;
+    margin-top: 49px;
+    row-gap: 6px;
+}
+
+.card-primeiro-conteudo img {
+    margin-left: 40px;
+}
+
+.card-primeiro-conteudo h4 {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    color: $cor-light;
+}
+
+.card-primeiro-conteudo h3 {
+    width: 236px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    color: $cor-light;
+    text-align: center;
+    margin-top: 34px;
+}
+
+.linha-footer {
+    border-color: rgba($color: white, $alpha: 0.2);
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.card-segundo-conteudo {
+    display: grid;
+    justify-items: center;
+    row-gap: 40px;
+}
+
+.card-segundo-conteudo h1 {
+    width: 260px;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: -0.5px;
+    color: $cor-light;
+}
+
+.card-segundo-conteudo button {
+    width: 263px;
+    height: 56px;
+    border: none;
+    background-color: $cor-light;
+    font-family: $fonte;
+    color: $cor-primary;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    border-radius: 8px;
+}
+
+.card-redes-footer {
+    width: 311px;
+    display: grid;
+    justify-items: center;
+    margin-top: 80px;
+    row-gap: 24px;
+}
+
+.card-redes-footer p {
+    margin-top: 8px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center;
+    color: $cor-text-secondary-shade-fraca;
+}
+
+.select-footer {
+    width: 311px;
+    height: 48px;
+    background-color: transparent;
+    border-radius: 8px;
+    display: grid;
+    justify-items: center;
+    border: 1px solid $cor-borda-select-footer;
+}
+
+.select-footer select {
+    color: $cor-text-secondary-shade-forte;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    background-color: transparent;
+    border: none;
+    padding-right: 216.5px;
+}
+
+.lista-redes-footer {
+    margin-top: 8px;
+    width: 136px;
+}
+
+.item-redes-footer {
+    border: 1px solid $cor-borda-select-footer;
+}
+
+.footer-icon-fb {
+    background-color: $cor-primary;
+    border: 1px solid $cor-primary;
+}
+
+.direitos-footer {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    color: $cor-text-secondary-shade-fraca;
+    margin-bottom: 34px;
 }

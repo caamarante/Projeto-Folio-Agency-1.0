@@ -101,7 +101,7 @@
 .menu-lateral--ativo {
   left: 0;
   transition: 0.25s;
-  z-index: 1;
+  z-index: 2;
 }
 
 .nav-ativo-mobile-logo {
@@ -147,6 +147,8 @@
   border: 0;
   color: #FFFFFF;
   font-family: "Roboto", sans-serif;
+  position: absolute;
+  z-index: 1;
 }
 
 .imagem-home-mobile {
@@ -181,4 +183,143 @@
   border-radius: 50%;
   border: none;
   background-color: #5468E7;
+}
+
+footer {
+  margin-top: 54px;
+  display: grid;
+  justify-items: center;
+  background-image: url("../../../imagens/mobile/home/background-footer.svg");
+  background-size: cover;
+  display: grid;
+  justify-items: center;
+}
+
+.card-footer {
+  width: 312px;
+  height: 548px;
+  background-image: url("../../../imagens/mobile/home/background-card-footer.svg");
+  background-size: cover;
+}
+
+.card-primeiro-conteudo {
+  display: grid;
+  justify-items: center;
+  margin-top: 49px;
+  row-gap: 6px;
+}
+
+.card-primeiro-conteudo img {
+  margin-left: 40px;
+}
+
+.card-primeiro-conteudo h4 {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+  color: #FFFFFF;
+}
+
+.card-primeiro-conteudo h3 {
+  width: 236px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+  color: #FFFFFF;
+  text-align: center;
+  margin-top: 34px;
+}
+
+.linha-footer {
+  border-color: rgba(255, 255, 255, 0.2);
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.card-segundo-conteudo {
+  display: grid;
+  justify-items: center;
+  row-gap: 40px;
+}
+
+.card-segundo-conteudo h1 {
+  width: 260px;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 40px;
+  text-align: center;
+  letter-spacing: -0.5px;
+  color: #FFFFFF;
+}
+
+.card-segundo-conteudo button {
+  width: 263px;
+  height: 56px;
+  border: none;
+  background-color: #FFFFFF;
+  font-family: "Roboto", sans-serif;
+  color: #5468E7;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  border-radius: 8px;
+}
+
+.card-redes-footer {
+  width: 311px;
+  display: grid;
+  justify-items: center;
+  margin-top: 80px;
+  row-gap: 24px;
+}
+
+.card-redes-footer p {
+  margin-top: 8px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  text-align: center;
+  color: #ADADAD;
+}
+
+.select-footer {
+  width: 311px;
+  height: 48px;
+  background-color: transparent;
+  border-radius: 8px;
+  display: grid;
+  justify-items: center;
+  border: 1px solid #D8D8D8;
+}
+
+.select-footer select {
+  color: #606060;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  background-color: transparent;
+  border: none;
+  padding-right: 216.5px;
+}
+
+.lista-redes-footer {
+  margin-top: 8px;
+  width: 136px;
+}
+
+.item-redes-footer {
+  border: 1px solid #D8D8D8;
+}
+
+.footer-icon-fb {
+  background-color: #5468E7;
+  border: 1px solid #5468E7;
+}
+
+.direitos-footer {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  color: #ADADAD;
+  margin-bottom: 34px;
 }/*# sourceMappingURL=style-home-mobile.css.map */
