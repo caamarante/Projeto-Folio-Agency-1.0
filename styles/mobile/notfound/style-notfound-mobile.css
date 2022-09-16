@@ -1,0 +1,30 @@
+.container-notfound {
+  min-height: 600px;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  align-content: center;
+  justify-items: center;
+}
+
+.numero {
+  color: #232340;
+  font-size: 150px;
+  align-self: end;
+  line-height: 100px;
+}
+
+.segunda-parte {
+  background-color: #232340;
+  color: #FFFFFF;
+  width: 100%;
+  text-align: center;
+  font-size: 40px;
+}
+
+.segunda-parte h3 {
+  font-size: 25px;
+}
+
+.segunda-parte a {
+  color: #ADADAD;
+}/*# sourceMappingURL=style-notfound-mobile.css.map */
