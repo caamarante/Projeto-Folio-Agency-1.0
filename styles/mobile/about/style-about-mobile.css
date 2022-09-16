@@ -1,0 +1,10 @@
+.nav-mobile {
+  width: auto;
+}
+
+.container-about-mobile {
+  background-color: #232340;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+}/*# sourceMappingURL=style-about-mobile.css.map */

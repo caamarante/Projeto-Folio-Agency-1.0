@@ -1,0 +1,12 @@
+@import '../../abstract/variaveis';
+
+.nav-mobile {
+    width: auto;
+}
+
+.container-about-mobile {
+    background-color: $cor-dark;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
