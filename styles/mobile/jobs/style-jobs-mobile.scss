@@ -1,0 +1,147 @@
+@import '../../abstract/variaveis';
+
+.container-jobs-mobile {
+    background-image: url('../../../imagens/mobile/jobs/backgroung-jobs-mobile.svg');
+    background-size: cover;
+    min-height: 1170px;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: center
+}
+
+.content-jobs-mobile {
+    width: 311px;
+    display: grid;
+    grid-template-columns: 51px auto;
+    row-gap: 24px;
+}
+
+.content-jobs-mobile h3, .content-jobs-mobile text {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    color: $cor-primary;
+}
+
+.content-jobs-mobile h1 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: -0.4px;
+    color: $cor-dark;
+    grid-column: span 2;
+}
+
+.content-jobs-mobile p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: $cor-text-secondary-shade-forte;
+    grid-column: span 2;
+}
+
+.jobs-cards {
+    width: 100%;
+}
+
+.lista-cards-jobs {
+    width: 343px;
+    margin-left: 32px;
+    display: grid;
+    row-gap: 16px;
+    margin-top: 48px;
+}
+
+.item-cards-jobs {
+    width: 311px;
+    height: 175px;
+    border-radius: 24px;
+    box-shadow: 0px 5px 50px $box-shadow-sombra2-card;
+    display: grid;
+    align-items: center;
+    background-color: $cor-light;
+}
+
+.conteudo-item-cards {
+    display: grid;
+    grid-template-columns: 187.64px auto;
+    align-items: center;
+    align-content: center;
+    column-gap: 15px;
+    row-gap: 4px;
+    padding-left: 40px;
+}
+
+.notificacao-card {
+    grid-template-columns: 151px auto;
+}
+
+.item-cards-jobs:hover {
+    width: 100%;
+    border-radius: 24px 0px 0px 24px;
+    background-image: url('../../../imagens/mobile/jobs/imagem-card-background-jobs.svg');
+    background-size: cover;
+    .seta-ativada-jobs {
+        display: block;
+    }
+    .seta-normal-jobs {
+        display: none;
+    }
+    h6 {
+        color: $cor-light;
+        font-size: 22.7556px;
+        line-height: 28px;
+        letter-spacing: -0.355556px;
+    }
+    p {
+        font-size: 12.8px;
+        line-height: 23px;
+        color: $cor-text-secondary-shade-media;
+    }
+    h5 {
+        display: none;
+    }
+}
+
+.seta-ativada-jobs {
+    display: none;
+}
+
+.item-cards-jobs h6 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: -0.2px;
+    color: $cor-dark;
+}
+
+
+.item-cards-jobs p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: $cor-text-secondary-shade-forte;
+    grid-column: span 2;
+}
+
+.notificacao-jobs {
+    background-image: $gradiente-azul-claro-escuro;
+    color: white;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.setas {
+    grid-column: span 2;
+    margin-top: 6.44px;
+}
