@@ -1,0 +1,108 @@
+.nav-mobile {
+  width: auto;
+}
+
+.container-work-mobile {
+  display: grid;
+  justify-items: center;
+  align-items: center;
+}
+
+.content-work-mobile {
+  width: 310px;
+  display: grid;
+  grid-template-columns: 51px auto;
+  row-gap: 24px;
+}
+
+.content-work-mobile h3, .content-work-mobile text {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+  color: #5468E7;
+}
+
+.content-work-mobile h1 {
+  font-size: 40px;
+  grid-column: span 2;
+  line-height: 48px;
+  color: #FFFFFF;
+  font-weight: 700;
+  letter-spacing: -0.4px;
+  color: #232340;
+}
+
+.content-work-mobile p {
+  grid-column: span 2;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #606060;
+}
+
+.setas {
+  grid-column: span 2;
+  display: inline-flex;
+}
+
+.botao-esquerda {
+  margin-left: 16px;
+}
+
+.lista-cards-work {
+  margin-top: 56px;
+  display: grid;
+  row-gap: 32.44px;
+}
+
+.item-cards-work {
+  width: 312.11px;
+  display: grid;
+  row-gap: 16px;
+}
+
+.item-cards-work h6 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: -0.2px;
+  color: #232340;
+  margin-top: 8px;
+}
+
+.item-cards-work p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #606060;
+  margin-bottom: 8px;
+}
+
+.item-cards-work a button {
+  background-color: transparent;
+  border: none;
+}
+
+.botao-contact-us {
+  margin-top: 48px;
+  margin-bottom: 48px;
+}
+
+.botao-contact-us a {
+  text-decoration: none;
+  display: grid;
+  align-items: center;
+  justify-items: center;
+}
+
+.botao-contact-us button {
+  width: 313px;
+  height: 46px;
+  background-color: #5468E7;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  color: #FFFFFF;
+  border: none;
+}/*# sourceMappingURL=style-work-mobile.css.map */
