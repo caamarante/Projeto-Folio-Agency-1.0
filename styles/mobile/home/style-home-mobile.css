@@ -67,6 +67,14 @@
   letter-spacing: -0.5px;
 }
 
+.link-lateral-ativo {
+  color: white;
+}
+
+.menu-lateral-itens:hover {
+  color: white;
+}
+
 .icons-redes-sociais {
   width: 184px;
   margin-left: 32px;
@@ -104,4 +112,73 @@
   justify-content: space-between;
   align-items: center;
   padding: 0 32px;
+}
+
+.informacoes-home-mobile {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 24px;
+  width: 311px;
+  height: 256px;
+  line-height: 56px;
+}
+
+.informacoes-home-mobile h3 {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 56px;
+  letter-spacing: -0.5px;
+  color: #232340;
+}
+
+.informacoes-home-mobile p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #606060;
+}
+
+.informacoes-home-mobile button {
+  font-size: 16px;
+  width: 160px;
+  height: 56px;
+  border-radius: 8px;
+  background-color: #5468E7;
+  border: 0;
+  color: #FFFFFF;
+  font-family: "Roboto", sans-serif;
+}
+
+.imagem-home-mobile {
+  align-self: flex-end;
+  position: absolute;
+}
+
+.botao-pular-pagina {
+  width: 100%;
+  margin: 0 0 32px 32px;
+  align-self: flex-end;
+  position: absolute;
+}
+
+.botao-direita {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: none;
+  background-color: transparent;
+}
+
+.botao-esquerda {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: none;
+  background-color: #5468E7;
 }/*# sourceMappingURL=style-home-mobile.css.map */
