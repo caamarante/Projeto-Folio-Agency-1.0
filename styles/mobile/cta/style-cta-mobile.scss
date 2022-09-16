@@ -1,0 +1,61 @@
+@import '../../abstract/variaveis';
+
+.nav-mobile {
+    width: auto;
+}
+
+.imagem-cta-mobile {
+    background-image: url('../../../imagens/mobile/cta/background-cta-mobile.svg');
+    background-repeat: no-repeat;
+    min-height: 977px;
+    width: 375px;
+    background-size:cover;
+    display: grid;
+    justify-items: center;
+    align-items: flex-start;
+}
+
+.content-cta-mobile {
+    width: 261px;
+    margin-left: 30px;
+    display: grid;
+    align-content: center;
+    grid-template-columns: 51px auto;
+    row-gap: 24px;
+    margin-top: 64px;
+}
+
+.content-cta-mobile h1{
+    grid-column: span 2;
+}
+
+.content-cta-mobile a{
+    grid-column: span 2;
+}
+
+.content-cta-mobile h3, .content-cta-mobile text{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    color: $cor-light;
+}
+
+.content-cta-mobile h1 {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+    color: $cor-light;
+}
+
+.content-cta-mobile a button {
+    width: 143px;
+    height: 46px;
+    background-color: $cor-light;
+    color: $cor-primary;
+    border-radius: 8px;
+    border: none;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    font-family: $fonte;
+}
